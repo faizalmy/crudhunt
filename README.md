@@ -35,15 +35,9 @@ CrudHunt is compatible with various React frameworks. Choose the one that best f
 - [Laravel Inertia](https://inertiajs.com/client-side-setup)
 - [Gatsby](https://www.gatsbyjs.com/docs/tutorial/getting-started/part-0/)
 
-<Alert variant="warning" appearance="soft" close={false}>
-  <AlertIcon>
-    <BookOpenCheck />
-  </AlertIcon>
-  <AlertTitle>
-    If you already have a React project with TypeScript and Tailwind CSS, you
-    can skip this step.
-  </AlertTitle>
-</Alert>
+> [!WARNING]
+> If you already have a React project with TypeScript and Tailwind CSS, you
+> can skip this step.
 
 ### Install Tailwind
 
@@ -331,16 +325,11 @@ export default function RootLayout({ children }) {
 }
 ```
 
-<Alert variant="success" appearance="soft" close={false}>
-  <AlertIcon>
-    <BookOpenCheck />
-  </AlertIcon>
-  <AlertTitle>
-    For a modern and visually appealing design, we recommend using
-    [Inter](https://fonts.google.com/specimen/Inter) as the default font in your
-    CrudHunt project.
-  </AlertTitle>
-</Alert>
+> [!TIP]
+> For a modern and visually appealing design, we recommend using
+> [Inter](https://fonts.google.com/specimen/Inter) as the default font in your
+> CrudHunt project.
+
 
 ### Add Lucide Icon Library
 
@@ -374,8 +363,6 @@ Copy the `utils.ts` file from `lib` directory in the source code to the `compone
 
 Explore the [CrudHunt Components](/docs/accordion) and add the ones you need into your project.
 
-</Steps>
-
 ---
 
 # CRUDs
@@ -401,8 +388,6 @@ Choose one of these options to set up your database:
 
 The Prisma console allows you to manage your Prisma projects and databases through a web interface.
 This guide will walk you through the registration process and how to use the console.
-
-<Steps>
 
 ### Sign Up for a Prisma Account
 
@@ -473,14 +458,10 @@ Once your schema is deployed, you need to generate the Prisma Client. The Prisma
   ```
   This command will generate the Prisma Client based on your schema and save it in the `node_modules/@prisma/client` directory.
 
-</Steps>
-
 
 ## 2. Supabase
 
 To get started with Supabase, follow these steps to register for a free account and obtain your connection string.
-
-<Steps>
 
 ### Sign Up
 
@@ -558,14 +539,10 @@ Once your schema is deployed, you need to generate the Prisma Client. The Prisma
   ```
   This command will generate the Prisma Client based on your schema and save it in the `node_modules/@prisma/client` directory.
 
-</Steps>
-
 
 ## CRUDs Setup
 
 Now let's set up the CRUD modules:
-
-<Steps>
 
 ### Get CrudHunt Source Code
 
